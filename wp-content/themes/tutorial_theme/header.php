@@ -7,7 +7,7 @@
 	<body <?php body_class(); ?>>
 		<div id="wrapper">
 			<div id="header">
-				<h2>HEADER</h2>
-				<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>				
+				<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>		
+				<br class="clear">
 			</div>
 	
